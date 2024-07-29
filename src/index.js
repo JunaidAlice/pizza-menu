@@ -116,8 +116,10 @@ function Footer() {
   //   alert ("we are currently open ");
   // else
   //  alert ( "sorry we are currently close");
+  
   if (!isOpen){
-    <p>we are still wroking on our pizza menu so kindly wait for somewhile</p>
+    return( <p>we are still wroking on our pizza menu so kindly wait for somewhile</p>)
+   
   }
   return (
     <Footer className="footer">
